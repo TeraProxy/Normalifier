@@ -33,6 +33,8 @@ Original by spaacecats -> https://github.com/spaacecats
 ## Changelog
 <details>
 
+### 1.0.1
+* [~] Minor definition update
 ### 1.0.0
 * [*] Updated abnormal IDs
 * [+] Added commands to disable the module and log abnormal IDs

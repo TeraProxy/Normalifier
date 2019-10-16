@@ -45,12 +45,12 @@ module.exports = function Normalifier(mod) {
 		log = false,
 		niceName = mod.proxyAuthor !== 'caali' ? '[Norm] ' : ''
 	
-	mod.hook('S_ABNORMALITY_BEGIN', 3, event => {
+	mod.hook('S_ABNORMALITY_BEGIN', 4, event => {
 		if(mod.game.me.is(event.target) && log) console.log('[Norm] Abnormality: ' + event.id + ' Duration: ' + event.duration + ' Stacks: ' + event.stacks)
 		if(enabled && BLOCKME.indexOf(event.id) > -1) return false
 	})
 	
-	mod.hook('S_ABNORMALITY_REFRESH', 1, event => {
+	mod.hook('S_ABNORMALITY_REFRESH', 2, event => {
 		if(enabled && CRYSTALS.indexOf(event.id) > -1) return false
 	})
 	

@@ -1,9 +1,9 @@
 {
     "disableAutoUpdate": false,
     "name": "Normalifier",
-    "author": "spaacecats / TeraProxy",
+    "author": "TeraProxy / spaacecats",
     "description": "Blocks specific abnormals in order to not trigger annoying screen effects on your client (e.g. Lein's Dark Root Beer).",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ",
     "options": {
         "niceName": "Norm",
