@@ -33,6 +33,8 @@ Original by spaacecats -> https://github.com/spaacecats
 ## Changelog
 <details>
 
+### 1.0.2
+* [*] Minor fix
 ### 1.0.1
 * [~] Minor definition update
 ### 1.0.0
